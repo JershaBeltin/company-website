@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main{
+  background: #f9fbfc;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 5rem;
+  padding-top: 14px;
+  box-shadow:0.33333rem 0 1.33333rem rgba(87, 87, 87, .5);
+  position: fixed;
+
+}
+.subDiv{
+  display: flex;
+}
+.list {
+  display: flex;
+  gap: 6rem;
+ 
+}
+.list a{
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-right: 300%;
+  margin-left: 200%;
+  display: flex;
+}
+#numota{
+  margin-top: 15%;
+}
+
+#div1{
+  float: left;
+  margin-left: 8%;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#div2{
+  float: right;
+}
+.A1{
+  float: left;
+  margin-left: 8%;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#about{
+  float: right;
+  margin-right: 30%;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#img1{
+  float: right;
+  margin-right: -55%;
+}
+.container1 {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  margin: 70px;
+  padding: 70px;
+  border-top: 4px solid #057ef0;
+  box-shadow:0.33333rem 0 1.33333rem rgba(87, 87, 87, .5);
+}
+#web{
+  text-align: center;
+}
+.p1{
+  text-align: center;
+  font-size: 15px;
+}
+.div3{
+  margin-right: 10%;
+  margin-top: -20%;
+  font-size: 14px;
+}
+#dm{
+  margin-left: 10%;
+}
+#b2{
+  margin-right: 10%;
+  margin-top: -20%;
+}
+#ec{
+  margin-right: 10%;
+  margin-top: -20%;
+}
+#i1{
+  left: 1400px;
+  top: 40px;
+  /* transform: translate(-50%,-50%); */
+  animation-name: animation;
+  animation-duration: 3s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  
+}
+@keyframes animation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+#i2{
+  left: 1050px;
+  top: 20px;
+  animation-name: animation;
+  animation-duration: 3s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+#i3{
+  left: 650px;
+  top: 50px;
+  animation-name: animation;
+  animation-duration: 3s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+#i4{
+  left: 10px;
+  top: 30px;
+  animation-name: animation;
+  animation-duration: 3s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+#i5{
+  left: 250px;
+  top: 5px;
+  animation-name: animation;
+  animation-duration: 3s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+
+.form{
+  margin-left: 60%;
+  margin-top: -30%;
+  margin-right: 20%;
+}
+input[type="text"] {
+  width: 200px;
+  height: 20px;
+}
+input[type="number"] {
+  width: 200px;
+  height: 20px;
+}
+input[type="email"] {
+  width: 200px;
+  height: 20px;
+}
+#divf1{
+  font-size: 15px;
+}
+#divf3{
+  font-size: 15px;
+}
+#divf2{
+  margin-top: -50%;
+  margin-left: 100%;
+  margin-right: -40%;
+  font-size: 15px;
+}
+#text1{
+  width: 500px;
+  height: 30px;
+}
+.button{
+  width: 500px;
+  color: darkgray;
+  height: 30px;
+  border: 0;
+}
+
+#c11{
+  color: white;
+}
+.containerb{
+  background-color: #057ef0;
+  padding-top:2% ;
+  padding-bottom: 5%;
+}
+.containera{
+  padding-top: -4%;
+}
+.containerc{
+  padding-top: -4%;
+}
+.containerd{
+  padding-top: -4%;
+}
+.containere{
+  padding-top: -4%;
+}
